@@ -2,8 +2,6 @@
 
 - "start": "node backend/server.js", ==> to run node from backend folder
 - "server": "nodemon backend/server.js", ==> to run nodemon from backend folder
-- "client": "npm run dev --prefix frontend", ==> to run react from frontend folder on root
-- "dev":"concurrently \"npm run server\" \"npm run client\"" ==> to run both client/server service from root
 
 ### API overview :
 
