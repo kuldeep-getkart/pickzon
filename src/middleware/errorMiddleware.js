@@ -1,25 +1,50 @@
-const notFound = (req, res, next) => {
-   const error = new Error(`Not Found ${req.originalUrl}`);
-   res.status(404);
-   next(error);
+import httpStatus from 'http-status';
+import Joi from 'joi';
+
+import config from '../config/config.js';
+import logger from '../config/logger.js';
+import APIError from '../utils/apiError.js';
+
+export const converter = (err, req, res, next) => {
+   if (err instanceof Joi.ValidationError) {
+      const errorMessage = err.details.map((d) => {
+         return {
+            message: d.message,
+            location: d.path[1],
+            locationType: d.path[0]
+         };
+      });
+      const apiError = new APIError(errorMessage, httpStatus.BAD_REQUEST);
+      apiError.stack = err.stack;
+      return next(apiError);
+   } else if (!(err instanceof APIError)) {
+      const status = err.status || httpStatus.INTERNAL_SERVER_ERROR;
+      const message = err.message || httpStatus[status];
+      const apiError = new APIError(message, status, false);
+      apiError.stack = err.stack;
+      apiError.message = [{ message: err.message }];
+      return next(apiError);
+   }
+   err.message = [{ message: err.message }];
+   return next(err);
 };
 
-const errorHandler = (err, req, res, next) => {
-   let statusCode = res.statusCode === 200 ? 500 : res.statusCode;
-   let message = err.message;
+export const notFound = (req, res, next) => {
+   return next(new APIError(httpStatus[httpStatus.NOT_FOUND], httpStatus.NOT_FOUND));
+};
 
-   if (err.name === 'CastError' && err.kind === 'ObjectId') {
-      statusCode = 404;
-      message = 'Resource not found'
+export const errorHandler = (err, req, res, next) => {
+   let { status, message } = err;
+   if (config.NODE_ENV === 'production' && !err.isOperational) {
+      status = httpStatus.INTERNAL_SERVER_ERROR;
+      message = httpStatus[httpStatus.INTERNAL_SERVER_ERROR];
    }
-
-   res.status(statusCode).json({
-      message,
-      stack: process.env.NODE_ENV === 'production' ? null : err.stack,
+   logger.error(err.stack);
+   return res.status(status).json({
+      status: status,
+      errors: message,
+      ...(config.NODE_ENV === 'development' && { stack: err.stack })
    });
-}
+};
 
-export {
-   notFound,
-   errorHandler
-}
+export default { converter, notFound, errorHandler };

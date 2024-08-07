@@ -1,0 +1,11 @@
+2024-08-07 15:42:59: error: APIError: Not Found
+    at notFound (file:///home/getkart/Desktop/pickzon/src/middleware/errorMiddleware.js:33:16)
+    at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
+    at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:280:10)
+    at compression (/home/getkart/Desktop/pickzon/node_modules/compression/index.js:220:5)
+    at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
+    at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
