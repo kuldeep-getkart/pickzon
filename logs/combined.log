@@ -1,16 +1,247 @@
-2024-08-07 14:51:51: http: ::1 - - [07/Aug/2024:09:21:51 +0000] "GET / HTTP/1.1" 404 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-2024-08-07 14:51:58: http: ::1 - - [07/Aug/2024:09:21:58 +0000] "GET / HTTP/1.1" 404 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-2024-08-07 15:05:21: http: ::1 - - [07/Aug/2024:09:35:21 +0000] "GET / HTTP/1.1" 404 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-2024-08-07 15:05:52: http: ::1 - - [07/Aug/2024:09:35:52 +0000] "GET / HTTP/1.1" 404 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-2024-08-07 15:42:59: error: APIError: Not Found
+2024-08-07 16:43:26: info: 🚀 Host: http://localhost:8888
+2024-08-07 16:43:29: info: 🚀 Connected to MongoDB..............................
+2024-08-07 16:55:42: info: 🚀 Host: http://localhost:8888
+2024-08-07 16:55:42: info: 🚀 Connected to MongoDB..............................
+2024-08-07 16:56:04: error: APIError: Not Found
     at notFound (file:///home/getkart/Desktop/pickzon/src/middleware/errorMiddleware.js:33:16)
     at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:95:5)
     at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
     at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
     at Function.process_params (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:346:12)
     at next (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:280:10)
-    at compression (/home/getkart/Desktop/pickzon/node_modules/compression/index.js:220:5)
+    at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
+    at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:346:12)
+2024-08-07 16:56:04: http: ::1 - - [07/Aug/2024:11:26:04 +0000] "GET / HTTP/1.1" 404 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-07 16:56:05: error: APIError: Not Found
+    at notFound (file:///home/getkart/Desktop/pickzon/src/middleware/errorMiddleware.js:33:16)
     at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:95:5)
     at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
     at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
-2024-08-07 15:42:59: http: ::1 - - [07/Aug/2024:10:12:59 +0000] "POST /api/ HTTP/1.1" 404 - "-" "PostmanRuntime/7.29.4"
+    at Function.process_params (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
+    at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:346:12)
+2024-08-07 16:56:05: http: ::1 - - [07/Aug/2024:11:26:05 +0000] "GET / HTTP/1.1" 404 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-07 16:57:02: info: 🚀 Host: http://localhost:8888
+2024-08-07 16:57:02: info: 🚀 Connected to MongoDB..............................
+2024-08-07 16:57:16: error: APIError: Not Found
+    at notFound (file:///home/getkart/Desktop/pickzon/src/middleware/errorMiddleware.js:33:16)
+    at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
+    at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
+    at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:346:12)
+2024-08-07 16:57:16: http: ::1 - - [07/Aug/2024:11:27:16 +0000] "GET / HTTP/1.1" 404 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-07 16:57:37: error: APIError: Not Found
+    at notFound (file:///home/getkart/Desktop/pickzon/src/middleware/errorMiddleware.js:33:16)
+    at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
+    at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
+    at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:346:12)
+2024-08-07 16:57:37: http: ::1 - - [07/Aug/2024:11:27:37 +0000] "GET / HTTP/1.1" 404 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-07 16:57:50: error: APIError: Not Found
+    at notFound (file:///home/getkart/Desktop/pickzon/src/middleware/errorMiddleware.js:33:16)
+    at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
+    at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
+    at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:346:12)
+2024-08-07 16:57:50: http: ::1 - - [07/Aug/2024:11:27:50 +0000] "GET /api/user/logout HTTP/1.1" 404 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-07 16:58:24: info: 🚀 Host: http://localhost:8888
+2024-08-07 16:58:24: info: 🚀 Connected to MongoDB..............................
+2024-08-07 16:58:36: error: APIError: Not Found
+    at notFound (file:///home/getkart/Desktop/pickzon/src/middleware/errorMiddleware.js:33:16)
+    at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
+    at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
+    at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:346:12)
+2024-08-07 16:58:36: http: ::1 - - [07/Aug/2024:11:28:36 +0000] "GET / HTTP/1.1" 404 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-07 17:00:13: info: 🚀 Host: http://localhost:8888
+2024-08-07 17:00:13: info: 🚀 Connected to MongoDB..............................
+2024-08-07 17:00:17: error: APIError: Not Found
+    at notFound (file:///home/getkart/Desktop/pickzon/src/middleware/errorMiddleware.js:33:16)
+    at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
+    at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
+    at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:346:12)
+2024-08-07 17:00:17: http: ::1 - - [07/Aug/2024:11:30:17 +0000] "GET / HTTP/1.1" 404 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-07 17:00:31: error: APIError: Not Found
+    at notFound (file:///home/getkart/Desktop/pickzon/src/middleware/errorMiddleware.js:33:16)
+    at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
+    at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
+    at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:346:12)
+2024-08-07 17:00:31: http: ::1 - - [07/Aug/2024:11:30:31 +0000] "POST /api/auth/register HTTP/1.1" 404 - "-" "PostmanRuntime/7.29.4"
+2024-08-07 17:01:25: info: 🚀 Host: http://localhost:8888
+2024-08-07 17:01:25: info: 🚀 Connected to MongoDB..............................
+2024-08-07 17:01:34: error: APIError: Not Found
+    at notFound (file:///home/getkart/Desktop/pickzon/src/middleware/errorMiddleware.js:33:16)
+    at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
+    at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
+    at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:346:12)
+2024-08-07 17:01:44: error: APIError: Not Found
+    at notFound (file:///home/getkart/Desktop/pickzon/src/middleware/errorMiddleware.js:33:16)
+    at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
+    at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
+    at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:346:12)
+2024-08-07 17:02:01: error: APIError: Not Found
+    at notFound (file:///home/getkart/Desktop/pickzon/src/middleware/errorMiddleware.js:33:16)
+    at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
+    at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
+    at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:346:12)
+2024-08-07 17:02:01: error: APIError: Not Found
+    at notFound (file:///home/getkart/Desktop/pickzon/src/middleware/errorMiddleware.js:33:16)
+    at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
+    at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
+    at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:346:12)
+2024-08-07 17:03:13: info: 🚀 Host: http://localhost:8888
+2024-08-07 17:03:13: info: 🚀 Connected to MongoDB..............................
+2024-08-07 17:03:23: error: APIError: Not Found
+    at notFound (file:///home/getkart/Desktop/pickzon/src/middleware/errorMiddleware.js:33:16)
+    at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
+    at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
+    at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:346:12)
+2024-08-07 17:03:23: http: ::ffff:127.0.0.1 - - [07/Aug/2024:11:33:23 +0000] "GET / HTTP/1.1" 404 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 10:25:03: info: 🚀 Host: http://localhost:8888
+2024-08-08 10:25:03: info: Connected to MongoDB..🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+2024-08-08 10:25:20: http: ::1 - - [08/Aug/2024:04:55:20 +0000] "GET / HTTP/1.1" 200 29 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 10:25:20: error: APIError: Not Found
+    at notFound (file:///home/getkart/Desktop/pickzon/src/middleware/errorMiddleware.js:33:16)
+    at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
+    at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
+    at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:346:12)
+2024-08-08 10:25:20: http: ::1 - - [08/Aug/2024:04:55:20 +0000] "GET /favicon.ico HTTP/1.1" 404 - "http://localhost:8888/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 10:25:50: http: ::1 - - [08/Aug/2024:04:55:50 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 10:34:28: error: APIError: Not Found
+    at notFound (file:///home/getkart/Desktop/pickzon/src/middleware/errorMiddleware.js:33:16)
+    at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
+    at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
+    at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:346:12)
+2024-08-08 10:34:28: http: ::1 - - [08/Aug/2024:05:04:28 +0000] "GET /api-docs HTTP/1.1" 404 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 10:34:32: error: APIError: Not Found
+    at notFound (file:///home/getkart/Desktop/pickzon/src/middleware/errorMiddleware.js:33:16)
+    at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
+    at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle [as handle_request] (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/layer.js:91:12)
+    at trim_prefix (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:328:13)
+    at /home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/getkart/Desktop/pickzon/node_modules/express/lib/router/index.js:346:12)
+2024-08-08 10:34:32: http: ::1 - - [08/Aug/2024:05:04:32 +0000] "GET /api-doc HTTP/1.1" 404 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 12:17:05: info: 🚀 Host: http://localhost:8888
+2024-08-08 12:17:05: info: Connected to MongoDB..🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+2024-08-08 12:17:12: http: ::1 - - [08/Aug/2024:06:47:12 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 12:17:48: http: ::1 - - [08/Aug/2024:06:47:48 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 12:17:49: http: ::1 - - [08/Aug/2024:06:47:49 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 12:17:49: http: ::1 - - [08/Aug/2024:06:47:49 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 12:17:50: http: ::1 - - [08/Aug/2024:06:47:50 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 12:18:40: info: 🚀 Host: http://localhost:8888
+2024-08-08 12:18:40: info: Connected to MongoDB..🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+2024-08-08 12:18:48: http: ::1 - - [08/Aug/2024:06:48:48 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 12:18:57: http: ::1 - - [08/Aug/2024:06:48:57 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 12:18:57: http: ::1 - - [08/Aug/2024:06:48:57 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 12:18:58: http: ::1 - - [08/Aug/2024:06:48:58 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 12:18:59: http: ::1 - - [08/Aug/2024:06:48:59 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 12:18:59: http: ::1 - - [08/Aug/2024:06:48:59 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 12:19:31: info: 🚀 Host: http://localhost:8888
+2024-08-08 12:19:31: info: Connected to MongoDB..🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+2024-08-08 12:19:51: http: ::1 - - [08/Aug/2024:06:49:51 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 12:25:03: http: ::1 - - [08/Aug/2024:06:55:03 +0000] "GET /api-docs HTTP/1.1" 301 183 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 12:25:03: http: ::1 - - [08/Aug/2024:06:55:03 +0000] "GET /api-docs/ HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 12:25:03: http: ::1 - - [08/Aug/2024:06:55:03 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 - "http://localhost:8888/api-docs/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 12:25:03: http: ::1 - - [08/Aug/2024:06:55:03 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 - "http://localhost:8888/api-docs/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 12:25:03: http: ::1 - - [08/Aug/2024:06:55:03 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 - "http://localhost:8888/api-docs/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 12:25:03: http: ::1 - - [08/Aug/2024:06:55:03 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 - "http://localhost:8888/api-docs/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 12:25:03: http: ::1 - - [08/Aug/2024:06:55:03 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "http://localhost:8888/api-docs/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 12:27:39: info: 🚀 Host: http://localhost:8888
+2024-08-08 12:27:39: info: Connected to MongoDB..🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+2024-08-08 12:27:44: http: ::1 - - [08/Aug/2024:06:57:44 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 12:27:44: http: ::1 - - [08/Aug/2024:06:57:44 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "http://localhost:8888/api-docs/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 12:27:44: http: ::1 - - [08/Aug/2024:06:57:44 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:8888/api-docs/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 12:27:44: http: ::1 - - [08/Aug/2024:06:57:44 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:8888/api-docs/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 12:27:44: http: ::1 - - [08/Aug/2024:06:57:44 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 - "http://localhost:8888/api-docs/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 12:27:44: http: ::1 - - [08/Aug/2024:06:57:44 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "http://localhost:8888/api-docs/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 12:32:24: info: 🚀 Host: http://localhost:8888
+2024-08-08 12:32:24: info: Connected to MongoDB..🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+2024-08-08 12:32:31: http: ::1 - - [08/Aug/2024:07:02:31 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 12:32:36: http: ::1 - - [08/Aug/2024:07:02:36 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 12:32:36: http: ::1 - - [08/Aug/2024:07:02:36 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "http://localhost:8888/api-docs/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 12:32:36: http: ::1 - - [08/Aug/2024:07:02:36 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:8888/api-docs/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 12:32:36: http: ::1 - - [08/Aug/2024:07:02:36 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "http://localhost:8888/api-docs/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+2024-08-08 12:32:36: http: ::1 - - [08/Aug/2024:07:02:36 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:8888/api-docs/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"

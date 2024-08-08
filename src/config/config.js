@@ -5,12 +5,12 @@ dotenv.config();
 
 const envValidate = Joi.object()
     .keys({
-        NODE_ENV: Joi.string().valid('production', 'development', 'test').required(),
+        NODE_ENV: Joi.string().valid('production', 'development').required(),
         APP_NAME: Joi.string().allow('').empty('').default('App Name'),
-        HOST: Joi.string().allow('').empty('').default('0.0.0.0'),
-        PORT: Joi.number().allow('').empty('').default(666),
+        HOST: Joi.string().allow('').empty('').default('localhost'),
+        PORT: Joi.number().allow('').empty('').default(8888),
 
-        DATABASE_URI: Joi.string().required(),
+        DATABASE_URI: Joi.string().required().default("mongodb://127.0.0.1:27017/DatabaseName"),
 
         JWT_ACCESS_TOKEN_SECRET_PRIVATE: Joi.string().required(),
         JWT_ACCESS_TOKEN_SECRET_PUBLIC: Joi.string().required(),
@@ -26,8 +26,8 @@ const envValidate = Joi.object()
         SMTP_PASSWORD: Joi.string().allow('').empty(''),
         EMAIL_FROM: Joi.string().allow('').empty(''),
 
-        FRONTEND_URL: Joi.string().allow('').empty('').default('http://localhost:777'),
-        IMAGE_URL: Joi.string().allow('').empty('').default('http://localhost:666/images')
+        FRONTEND_URL: Joi.string().allow('').empty(''),
+        IMAGE_URL: Joi.string().allow('').empty('')
     })
     .unknown();
 

@@ -1,19 +1,30 @@
 ### NPM command :
 
-- "start": "node backend/server.js", ==> to run node from backend folder
-- "server": "nodemon backend/server.js", ==> to run nodemon from backend folder
+- "npm install" ==> To install all the dependencies
 
-### API overview :
+- Set the .env file 
 
-- **POST /api/users** - Register a user
-- **POST /api/users/auth** Authenticate a user / login
-- **POST /api/users/logout** - Logout user and clear cookies
-- **GET /api/users/profile** Get user profile
-- **PUT /api/users/profile** - Update profile
+- "npm start" ==> to run node server
 
 ### .env file :
 
-- NODE_ENV=development
-- PORT=5000
-- JWT_SECRET=secret
-- MONGO_URI=mongodb+srv://username:password@testingdatabase.yxgfkdl.mongodb.net/testingDatabase
+- APP_NAME =
+- NODE_ENV = "development"
+
+- HOST = "localhost"
+- PORT = 8888
+- DATABASE_URI =
+
+- JWT_ACCESS_TOKEN_SECRET_PRIVATE =
+- JWT_ACCESS_TOKEN_SECRET_PUBLIC =
+- JWT_ACCESS_TOKEN_EXPIRATION_MINUTES =
+
+- REFRESH_TOKEN_EXPIRATION_DAYS =
+- VERIFY_EMAIL_TOKEN_EXPIRATION_MINUTES =
+- RESET_PASSWORD_TOKEN_EXPIRATION_MINUTES =
+
+- SMTP_HOST =
+- SMTP_PORT =
+- SMTP_USERNAME =  
+- SMTP_PASSWORD = 
+- EMAIL_FROM = 

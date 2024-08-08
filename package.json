@@ -29,6 +29,8 @@
     "logger": "^0.0.1",
     "mongoose": "^8.2.0",
     "morgan": "^1.10.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
     "winston": "^3.13.1"
   },
   "devDependencies": {
